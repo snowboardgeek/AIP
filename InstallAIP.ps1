@@ -11,3 +11,9 @@ $Cred = Get-Credential
 
 #Connect to the Azure RMS Service
 connect-AIPService -Credential $Cred
+
+#review configuration of AD RMS
+Get-AipServiceConfiguration
+
+#See Other Commands
+Get-Command -Module AIPService
